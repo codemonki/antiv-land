@@ -53,9 +53,13 @@ body {
     font-size: 11px;
     text-align: justify;
 }
-
+.subTitle input{
+    height: 30px;
+    width: 150px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.8);
+}
 .btnSms {
-    position: absolute;
+   /* position: absolute;*/
     width: 150px;
     height: 30px;
     margin-top: 10px;
