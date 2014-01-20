@@ -51,8 +51,33 @@ body{
     font-size: 1.2em;
     text-align: justify;
 }
+
 @media (max-width: 991px){
 	.side-image{
 		display: none;
 	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .maintText .title{
+        font-size: 34px;
+    }
+    .maintText .subTitle{
+    font-size: 26px;
+    }
+}
+@media (min-width: 360px) and (max-width: 768px){
+    .maintText .title{
+        font-size: 20px;
+    }
+    .maintText .subTitle{
+    font-size: 16px;
+    }
+}
+@media (min-width: 300px) and (max-width: 360px){
+    .maintText .title{
+        font-size: 20px;
+    }
+    .maintText .subTitle{
+    font-size: 15px;
+    }
 }
