@@ -42,7 +42,7 @@
 })( jQuery );
 
 $(document).ready(function () {
-    getDynamicKeyword();
+    //getDynamicKeyword();
 	resizeit();
 	jQuery(".title").fitText(1.8, {minFontSize: '20px',maxFontSize: '34px'});
 	jQuery(".subTitle").fitText(1.8, {minFontSize: '15px',maxFontSize: '26px'});
@@ -64,7 +64,6 @@ function getDynamicKeyword(){
 	var shortcode = "sms:60533?body=TAK "+randomId;
 	$('#smsBtn').attr("href", shortcode);
 }
-
 
 /*
 function geoip_country_code() { return 'BD'; }
